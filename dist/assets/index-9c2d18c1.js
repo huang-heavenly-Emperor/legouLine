@@ -1,0 +1,1 @@
+import{i as o}from"./http-c830e3c3.js";import{q as e}from"./index-5e3051ec.js";const t=e();function r(){return o({url:"/bufan/collect/listAction",data:{openId:t.openId}})}function l(n){return o({url:"/bufan/collect/addcollect",method:"post",data:{openId:t.openId,goodsId:n}})}export{l as a,r as l};

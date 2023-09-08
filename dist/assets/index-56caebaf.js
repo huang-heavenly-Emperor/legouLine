@@ -1,0 +1,1 @@
+import{i as t}from"./http-c830e3c3.js";import{q as o}from"./index-5e3051ec.js";const a=o();function d(){return t({url:"/bufan/cart/cartList",data:{openId:a.openId}})}function u({number:r,goodsId:n}){return t({url:"/bufan/cart/addCart",method:"post",data:{openId:a.openId,number:r,goodsId:n}})}export{u as a,d as c};

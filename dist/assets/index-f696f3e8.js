@@ -1,0 +1,1 @@
+import{i as t}from"./http-c830e3c3.js";function i(a=1){return t({url:"/bufan/brand/listaction",data:{page:a}})}function r(a){return t({url:"/bufan/brand/detailaction",data:{id:a}})}export{r as d,i as l};

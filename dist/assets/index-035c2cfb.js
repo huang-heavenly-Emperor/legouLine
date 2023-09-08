@@ -1,0 +1,1 @@
+import{i as o}from"./http-c830e3c3.js";import{z as a}from"./index-5e3051ec.js";function r(t){return console.log(a(t)),o({url:"/bufan/topic/listaction",data:{page:a(t)}})}function c(t){return o({url:"/bufan/topic/detailaction",data:{id:t}})}export{c as d,r as l};
